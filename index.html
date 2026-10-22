@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pay Carrie Byram</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f5f2ec;
+      font-family: Arial, sans-serif;
+      color: #252525;
+    }
+    .card {
+      width: 100%;
+      max-width: 420px;
+      padding: 36px 24px;
+      background: white;
+      border-radius: 24px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    }
+    h1 { font-size: 30px; margin: 0 0 12px; }
+    p { color: #666; line-height: 1.5; }
+    .button {
+      display: block;
+      padding: 19px 16px;
+      margin: 16px 0;
+      border-radius: 14px;
+      color: white;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: bold;
+    }
+    .cashapp { background: #00b84a; }
+    .paypal { background: #174d9d; }
+    .venmo { background: #008cff; }
+    .button:focus-visible {
+      outline: 3px solid #222;
+      outline-offset: 3px;
+    }
+    .note { font-size: 13px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Carrie Byram</h1>
+    <p>Thank you for shopping with us!</p>
+    <p>Choose your preferred payment method.</p>
+
+    <a class="button cashapp"
+       href="https://cash.app/$CarrieBartco">
+      Pay with Cash App
+    </a>
+
+    <a class="button paypal"
+       href="#"
+       onclick="alert('PayPal payment link coming soon'); return false;">
+      Pay with PayPal
+    </a>
+
+    <a class="button venmo"
+       href="https://venmo.com/u/Carrie-Byram">
+      Pay with Venmo
+    </a>
+
+    <p class="note">
+      Please verify the recipient before sending payment.
+      Payments are completed through your chosen provider.
+    </p>
+  </main>
+</body>
+</html>
